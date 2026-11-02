@@ -1,5 +1,3 @@
-### App_projeto_DispositivosMovei
-
 # Proposta de Projeto: App GamerCatalog
 
 ## Título
@@ -27,8 +25,7 @@ Com base na estrutura da API existente, o aplicativo móvel em Flutter terá os 
 *   **RNF01 - Portabilidade:** O aplicativo deve ser multiplataforma, sendo capaz de ser compilado e executado nativamente tanto em dispositivos Android quanto iOS, utilizando o framework Flutter.
 *   **RNF02 - Usabilidade:** A interface de usuário (UI) deve ser responsiva, adaptando-se corretamente a diferentes tamanhos de telas e orientações (smartphones e tablets), seguindo as diretrizes do Material Design ou Cupertino.
 *   **RNF03 - Desempenho:** As requisições HTTP para a `gamercatalog_api` devem ser tratadas de forma assíncrona para não travar a interface do usuário, utilizando indicadores de carregamento (loading/spinners) durante a busca de dados.
-*   **RNF04 - Segurança:** O aplicativo deve gerenciar a sessão do usuário de forma segura, armazenando os tokens de autenticação (como JWT) em armazenamento local seguro do dispositivo.
-*   **RNF05 - Tolerância a Falhas:** O sistema deve tratar de forma amigável cenários de perda de conexão com a internet ou indisponibilidade da API, exibindo mensagens de erro claras para o usuário em vez de fechar o aplicativo (crash).
+*   **RNF04 - Tolerância a Falhas:** O sistema deve tratar de forma amigável cenários de perda de conexão com a internet ou indisponibilidade da API, exibindo mensagens de erro claras para o usuário em vez de fechar o aplicativo (crash).
 
 ## Diagramas
 
@@ -53,4 +50,4 @@ Para otimizar o tempo e manter a familiaridade com as regras de negócio constru
 
 *   **Charley:** Responsável pela criação das interfaces e integração dos fluxos de **Usuário** (telas de login, cadastro e perfil), **DLCs** e **Conquistas**.
 
-*   **João Pedro de Queiroz Martins:** Responsável pela criação das interfaces e integração dos módulos principais do catálogo: **Jogo**, **Plataforma**, **Estúdio** e **Publisher**.
+*   **João Pedro:** Responsável pela criação das interfaces e integração dos módulos principais do catálogo: **Jogo**, **Plataforma**, **Estúdio** e **Publisher**.
